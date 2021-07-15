@@ -6,7 +6,10 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "start": "lerna run start --parallel",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "lerna run build",
+    "publish": "lerna publish",
+    "package-install": "lerna exec npm install",
+    "diff": "lerna diff"
   },
   "repository": {
     "type": "git",
